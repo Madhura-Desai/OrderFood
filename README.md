@@ -44,7 +44,7 @@ This project contains the following folder structure:
     - Upper limit of remaining food is not defined. For example: What if the user enters remaining food = 1000000 by mistake
 
 ## Sample Output
-![image](https://user-images.githubusercontent.com/51870349/129500494-0d3d487e-d928-4f2a-bb56-83971dc43e23.png)
+![image](https://user-images.githubusercontent.com/51870349/129511228-f7a8e42c-fc4e-4f56-858d-387e682f11ac.png)
 
 ## How to run the pytests
 Go to "Run" on the toolbar of Spyder and click on "Run unit tests"
