@@ -38,9 +38,8 @@ This project contains the following folder structure:
     - test_happypath_cases.txt: The data contains known input, which executes without exception and produces an expected output. Example: If at the end of the month I have 5 small dogs, 3 medium dogs, 7 large dogs, and a leftover food supply of 17lbs. Then the order_qty is 363.6 lbs
 
 - Cases not covered in Acceptance Criteria
-    - What if the size of the dogs changes during of the course of the month. This can change the order quantity of food
-    - What if the number of dogs changes during the course of the month. This can also change the order quantity of food
-    - Minimum order quantity is not defined
+    - Change in number and/or size of dogs during of the course of the month. This will impact the order quantity. We are working with the assumption that the number/size of dogs will remain constant for 30 days, which might not be true in real life scenarios. An alternative would be to develop a predictive model to estimate average number of dogs for next 30 days based on prior history
+    - Minimum order quantity is not defined. This might be a requirement when actually sourcing food supply.
       1. For example: (S*10 + M*20+ L*30) – remaining food = 0.1. Hence the order quantity would be 0.1 *1.2 = 0.12lbs
     - Upper limit of remaining food is not defined. For example: What if the user enters remaining food = 1000000 by mistake
 
